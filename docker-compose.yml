@@ -17,7 +17,7 @@ services:
       # Specify the messaging platform and details, or leave blank if only wanting container logs (pick one only)
       # MESSAGE_PLATFORM: 'telegram@your_bot_id@your_chat_id'
       # MESSAGE_PLATFORM: 'pushbullet@your_api_key@your_device_id'
-      MESSAGE_PLATFORM: 'pushover@uwso3jhw3ye1zy1kq7unu3y5p1r334@ah7iqykubkrmrnsoxf9ue3yhpqprhn'
+      MESSAGE_PLATFORM: ${message_platform}
       # MESSAGE_PLATFORM: 'pushover@your_user_key@your_app_api_token'
       # MESSAGE_PLATFORM: 'discord@webhook_url'
       # MESSAGE_PLATFORM = apprise@apprise_url@config_id@tag
